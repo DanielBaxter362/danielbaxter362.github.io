@@ -1,0 +1,13 @@
+html {
+    font-family: "Playfair Didot", "Didot", Georgia, serif;
+}
+
+:is(h1, h2, h3, h4) {
+    text-align: center;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    font-size: 1.15rem;
+}
