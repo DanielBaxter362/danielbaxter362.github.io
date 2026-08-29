@@ -2,12 +2,34 @@ html {
     font-family: "Playfair Didot", "Didot", Georgia, serif;
 }
 
-:is(h1, h2, h3, h4) {
+body {
+    color: white;
+    text-align: center;
+    background-image: url("assets/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4 {
     text-align: center;
 }
 
+h1 {
+    color: #ffffff;
+}
+
+h2, h3, h4, p {
+    color: #c2c2c2;
+}
+
+a {
+    color: #70cfff;
+}
+
 .contact {
-    display: block;
-    text-align: center;
+    color: #c2c2c2;
+    display: inline-block;
     font-size: 1.15rem;
 }
