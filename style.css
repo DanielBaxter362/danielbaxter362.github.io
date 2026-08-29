@@ -16,20 +16,42 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-h1 {
+h1, h2 {
     color: #ffffff;
 }
 
-h2, h3, h4, p {
+h3, h4, p {
     color: #c2c2c2;
 }
 
 a {
     color: #70cfff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c2c2c2;
 }
 
 .contact {
     color: #c2c2c2;
     display: inline-block;
     font-size: 1.15rem;
+    margin-bottom: 4rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 6.5rem;
+    padding: 0 6rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #130624;
+    border-radius: 8px;
+    flex: 1 1 250px;
+    color: #111;
+    padding: 1.5rem;
 }
