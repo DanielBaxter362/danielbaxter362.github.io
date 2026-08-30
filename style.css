@@ -5,7 +5,7 @@ html {
 body {
     color: white;
     text-align: center;
-    background-image: url("assets/bg.jpg");
+    background-image: url("assets/background.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@ a:hover {
 }
 
 .card {
-    background-color: #130624;
+    background-color: #121d26;
     border-radius: 8px;
     flex: 1 1 250px;
     color: #111;
